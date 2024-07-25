@@ -2,7 +2,7 @@
 //  lve_window.h
 //  VulkanTesting
 //
-//  Created by Jared Henderson on 7/25/24.
+//  Created by Derkaziam on 7/25/24.
 //
 
 #ifndef lve_window_h
@@ -18,6 +18,11 @@ namespace lve {
     public:
         LveWindow(int x, int h, std::string title);
         ~LveWindow();
+        
+        LveWindow(const LveWindow &) = delete;
+        LveWindow &operator=(const LveWindow &) = delete;
+        
+        bool shouldClose() { return glfwWindowShouldClose(window); }
         
     private:
         void initWindow();

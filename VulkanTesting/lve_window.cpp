@@ -2,7 +2,7 @@
 //  lve_window.cpp
 //  VulkanTesting
 //
-//  Created by Jared Henderson on 7/25/24.
+//  Created by Derkaziam on 7/25/24.
 //
 
 #include <stdio.h>

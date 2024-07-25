@@ -2,7 +2,7 @@
 //  first_app.hpp
 //  VulkanTesting
 //
-//  Created by Jared Henderson on 7/25/24.
+//  Created by Derkaziam on 7/25/24.
 //
 
 #ifndef first_app_hpp
